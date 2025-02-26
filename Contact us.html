@@ -1,53 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css" type="text/css">
-   <title>Homepage - The Gourmet Spot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Gourmet Spot</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to External CSS -->
 </head>
 
 <body>
-    <h1>The Gourmet Spot</h1>
+    <h1>Contact Us</h1>
 
-    <ul class="container">
-        <li><img src="Images/logo2.jpg" class="logo" alt="Restaurant Logo"></li>
-        <li class="items"><a href="./Home.html">Home</a></li>
-        <li class="items"><a href="./Menu.html">Menu</a></li>
-        <li class="items"><a href="./Contact us.html">Contact Us</a></li>
-    </ul>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong> 123 Main Street, Nairobi, Kenya</p>
+            <p><strong>Phone:</strong> +254 700 123 456</p>
+            <p><strong>Email:</strong> <a href="mailto:info@gourmetspot.com">info@gourmetspot.com</a></p>
+            <p><strong>Opening Hours:</strong> Mon-Sat: 10 AM - 10 PM</p>
+        </div>
 
-  <div class="contactForm">
-                    <h2>Send a Message</h2>
-                    <div class="formBox">
-                        <div class="inputBox w50">
-                            <input type="text" name="" required>
-                            <span>First Name</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" name="" required>
-                            <span>Last Name</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" name="" required>
-                            <span>Email Address</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" name="" required>
-                            <span>Mobile Number</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <textarea name="" required></textarea>
-                            <span>Write your message here...</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <input type="submit" value="Send">
-                        </div>
-                    </div>
-        </form>
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
 
-    
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
     <footer>
         <p><strong>Maclaine Kuria</strong></p>
         <p>Admission Number: 669293</p>
-        <p>Email: <a href="mailto:maclainekuria@gmail.com" style="color: #d4af37; text-decoration: none;">maclainekuria@gmail.com</a></p>
+        <p>Email: <a href="mailto:maclainekuria@gmail.com">maclainekuria@gmail.com</a></p>
     </footer>
 </body>
 </html>
