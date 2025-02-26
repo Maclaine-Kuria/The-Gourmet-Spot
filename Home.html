@@ -1,44 +1,86 @@
 <html>
-  <head>
-     <TITLE> Homepage </TITLE>
-    
+<head>
+  
+    <title>Homepage - The Gourmet Spot</title>
+
     <style>
-         .container {
-            list-style:none;
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #d4af37; 
+            text-align: center;
+            font-family: "Georgia", serif;
+            margin: 20px 0;
+        }
+
+        .container {
+            list-style: none;
             display: flex;
             background-color: black;
-           
-            .logo {
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
             width: 100px;
             height: 100px;
             margin-right: auto;
         }
-            .container {
-                list-style:none;
-                display: flex;
-                background-color: black;
-            }
-            .items {
-                padding-right: 100px;
-                padding-top: 50px;
-            }
-            .items a{
-                color:azure;
-                text-decoration: none;
-            }
-            .items a:hover {
-                color:yellow;
+
+        .items {
+            padding: 15px 25px;
+        }
+
+        .items a {
+            color: #d4af37; 
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .items a:hover {
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: #d4af37; 
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 16px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
     </style>
+</head>
+
+<body>
+    <h1>The Gourmet Spot</h1>
+
+    <ul class="container">
+        <li><img src="Images/logo2.jpg" class="logo" alt="Restaurant Logo"></li>
+        <li class="items"><a href="./Home.html">Home</a></li>
+        <li class="items"><a href="./Menu.html">Menu</a></li>
+        <li class="items"><a href="./Contact-us.html">Contact Us</a></li>
+    </ul>
+
     
-  </head>
-  
-  <body>
-     <ul class="container">
-            <img src="Images\logo2.jpg" class="logo">
-            <li class="items"><A HREF="./Home.html "> Home </A></li>
-            <li class="items"><A HREF="./Menu.html "> Menu </A></li>
-            <li class="items"><A HREF="./Contact us.html "> Contact Us </A></li>
-            
-        </ul>
-  </body>
+    <footer>
+        <p><strong>Maclaine Kuria</strong></p>
+        <p>Admission Number: 669293</p>
+        <p>Email: <a href="mailto:maclainekuria@gmail.com" style="color: #d4af37; text-decoration: none;">maclainekuria@gmail.com</a></p>
+    </footer>
+</body>
 </html>
