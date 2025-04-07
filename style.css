@@ -1,8 +1,10 @@
-h1 {
-    font-size: 50px;
-    color: #d4af37; 
-    margin-top: 20px;
-    font-family: "Georgia", serif;
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     font-size: 50px;
